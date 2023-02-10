@@ -216,17 +216,17 @@ a:hover{
 
     }
     .ajuda{
-        font-size:1rem;
+        font-size:0.7rem;
     }
     .ajuda a{
-        font-size:1rem;
+        font-size:0.7rem;
     }
     .novo{
-        font-size:1rem;
+        font-size:0.7rem;
     }
     .rodape{
         margin-top:300px;
         margin-bottom:100px;
-        font-size:1rem;
+        font-size:0.7rem;
     }
 }
