@@ -178,6 +178,7 @@ a:hover{
     }
     .rodape{
         margin-top:200px;
+        margin-bottom:100px;
     }
 }
 @media (max-width:576px){
@@ -193,5 +194,9 @@ a:hover{
     }
     .login{
         margin-left:10px;
+    }
+    .rodape{
+        margin-top:300px;
+        margin-bottom:100px;
     }
 }
