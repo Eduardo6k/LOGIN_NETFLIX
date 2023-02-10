@@ -154,12 +154,12 @@ a:hover{
         margin-left:20px;
     }
     .input{
-        width:95%;
+        width:98%;
         margin-left:0;
     }
     
     .botao{
-        width:95%;
+        width:98%;
         margin: 0;
         margin-top:30px;
         margin-bottom:15px;
@@ -195,6 +195,13 @@ a:hover{
     .login{
         margin-left:10px;
         width:100%;
+    }
+    .botao{
+        width:98%;
+        margin: 0;
+        margin-top:30px;
+        margin-bottom:15px;
+
     }
     .rodape{
         margin-top:300px;
