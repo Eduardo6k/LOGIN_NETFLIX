@@ -1,6 +1,7 @@
 
 body{
-    background:url("../img/fundo1.png") ;
+    background:url("../img/fundo1.png");
+    background-repeat: repeat-y;
 }
 .logo{
     width: 210px;
@@ -18,14 +19,14 @@ h1{
     
 }
 h3{
-    color: rgb(195, 197, 198);
+    color: rgb(136, 144, 148);
     display:inline-block;
     font-size:1.2rem;
 }
 .login{
-    width:600px;
+    width:540px;
     height:760px;
-    background-color: rgba(0, 0, 0, 0.907);
+    background-color: rgba(0, 0, 0, 0.833);
     padding:10px;
 }
 .input{
@@ -57,31 +58,45 @@ h3{
     text-decoration: none;
     color:rgb(207, 195, 195);
     font-size:1.2rem;
-
 }
+
 a:hover{
     cursor: pointer;
 }
+.novo{
+    width:90%;
+    margin-top:90px;
+}
 .novo p{
-    color: rgb(211, 219, 226);
+    color: rgb(160, 164, 168);
 }
 .novo a{
     text-decoration: none;
     color:rgb(255, 255, 255);
     font-size:1.3rem;
 }
+.novo a.ajudaException{
+    text-decoration:dashed;
+    color: #3503ff;
+    font-size:1rem;
+}
 
 .rodape{
-    background-color:rgba(0, 0, 0, 0.618) ;
-
-
+    background-color:rgba(0, 0, 0, 0.941) ;
+    color: aliceblue;
+    font-size:1.4rem;
+}
+.rodape a{
+    text-decoration:none;
+    color: rgb(97, 92, 92);
+    font-weight:500;
 }
 
 @media (max-width:1900px ){
      .login{
          margin:0 auto;
-         margin-top:10px;
-         padding:50px;
+         margin-top:-30px;
+         padding:20px;
      }
      .input{
         margin-left:20px;
@@ -101,9 +116,16 @@ a:hover{
         font-weight:400;
 
      }
+     .ajuda{
+        margin-left:10px;
+     }
+     .novo{
+        width:90%;
+        margin-left:20px;
+    }
      .rodape{
         height:200px;
-        margin-top:100px;
+        margin-top:90px;
      }
      body{
         background-repeat:no-repeat;
@@ -125,7 +147,7 @@ a:hover{
         font-size:40px;
     }
     .login{
-        width:100%;
+        width:90%;
         height:400px;
         margin: 0;
         padding:0;
@@ -149,11 +171,16 @@ a:hover{
         width:93%;
     
      }
+     .novo{
+        width:90%;
+        margin-top:30px;
+        margin-left:0px;
+    }
     .rodape{
-        margin-left:-3000px;
+        margin-top:115px;
     }
 }
-@media (max-width:600px){
+@media (max-width:576px){
     .logo{
         width:100px;
         margin-top:10px;
