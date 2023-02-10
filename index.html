@@ -21,18 +21,25 @@
         <h1>Entrar</h1>
         <form class="form p-3">
             <div class="mb-3">
-                <input type="email" class="form-control input" id="email">
+                <input type="email" class="form-control input" id="email" required>
             </div>
             <div class="mb-3">
-                <input type="password" class="form-control input" id="exampleInputPassword1">
+                <input type="password" class="form-control input" id="exampleInputPassword1" required>
             </div>
             <button type="submit" class="botao">Entrar</button>
-            <div class="mb-3 form-check d-flex justify-content-between"">
-               
-                <label class=" form-check-label text-light" for="chek">
-                <input type="checkbox" class="form-check-input" id="chek">
-                lembre-se de min</label>
-                <div id="ajuda" class=""><a>precisa de ajuda?</a></div>
+            <div class="mb-3 form-check d-flex justify-content-between chek">
+
+                <label class=" form-check-label" for="chekbox">
+                    <input type="checkbox" class="form-check-input" id="chekbox">
+                    lembre-se de min</label>
+                <div class=""><a>precisa de ajuda?</a></div>
+            </div>
+            <div class="novo">
+                <p>
+                    <h3>Novo por aqui?</h3> <a href="">Assine agora.</a>
+                    Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. Saiba mais.
+                </p>
+
             </div>
         </form>
     </div>
