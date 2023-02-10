@@ -15,36 +15,42 @@
 </head>
 
 <body>
-    <img src="./img/logo.png" alt="NetFlix" class="logo">
+    <img src="./img/logo.png" alt="NetFlix" class="logo mb-4">
 
     <div class="login">
         <h1>Entrar</h1>
         <form class="form p-3">
             <div class="mb-3">
-                <input type="email" class="form-control input" id="email" required>
+                <input type="email" class="form-control input" id="email" placeholder="digite seu email ou telefone:"
+                    required>
             </div>
             <div class="mb-3">
-                <input type="password" class="form-control input" id="exampleInputPassword1" required>
+                <input type="password" class="form-control input" id="exampleInputPassword1" placeholder="senha:"
+                    required>
             </div>
             <button type="submit" class="botao">Entrar</button>
-            <div class="mb-3 form-check d-flex justify-content-between chek">
+            <div class="mb-3 form-check d-flex ajuda">
+                <div class="flex-grow-1 p-2"> 
+                    <label class=" form-check-label" for="chekbox">
+                        <input type="checkbox" class="form-check-input" id="chekbox">
+                        lembre-se de min</label>
+               </div>
 
-                <label class=" form-check-label" for="chekbox">
-                    <input type="checkbox" class="form-check-input" id="chekbox">
-                    lembre-se de min</label>
-                <div class=""><a>precisa de ajuda?</a></div>
+                <div class="p-2"><a>precisa de ajuda?</a></div>
             </div>
-            <div class="novo">
-                <p>
-                    <h3>Novo por aqui?</h3> <a href="">Assine agora.</a>
-                    Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. Saiba mais.
-                </p>
+            <div class="novo d-flex align-items-start flex-column mb-3" style="height: 200px;">
+                <h3>Novo por aqui?
+                    <a href="">Assine agora.</a>
+                </h3>
+                <p> Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. Saiba mais.</p>
 
             </div>
         </form>
     </div>
+    
 
     <footer class="rodape">
+        <hr>
         <h2>teste</h2>
     </footer>
 </body>
