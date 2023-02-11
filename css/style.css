@@ -36,6 +36,7 @@ h3{
     padding:10px;
 }
 
+
 .input{
     height:60px;
     transition: all 0.3s;
@@ -43,6 +44,7 @@ h3{
     color: rgb(0, 0, 0);
     
 }
+
 .input:hover{
     background:rgba(189, 174, 174, 0.509);
     color: rgb(246, 248, 250);
@@ -219,6 +221,9 @@ a:hover{
         width:99%;
         margin-left:0;
         background-color: rgb(32, 27, 27);
+    }
+    .input::placeholder{
+    color: rgb(248, 243, 243);
     }
     .botao{
         width:99%;
