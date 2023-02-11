@@ -5,6 +5,8 @@ html{
 body{
     background:url("../img/fundo1.png");
     background-repeat: repeat-y;
+    background-color: rgba(0, 0, 0, 0.993);
+    background-size:cover;
    
 }
 .logo{
@@ -129,14 +131,15 @@ a:hover{
         margin-left:20px;
         font-size:1.4rem;
     }
+    .drop{
+        margin-top:15px;
+    }
+ 
      .rodape{
-        height:200px;
-        margin-top:90px;
+        height:300px;
+        margin-top:80px;
      }
-     body{
-        background-repeat:no-repeat;
-        background-size: cover;
-     }
+    
 }
 @media(max-width:930px){
     body{
@@ -182,9 +185,13 @@ a:hover{
         margin-top:30px;
         margin-left:0px;
     }
+    .drop{
+        margin-top:25px;
+    }
+  
     .rodape{
         margin-top:200px;
-        margin-bottom:100px;
+        margin-bottom:10px;
     }
 }
 @media (max-width:576px){
@@ -212,21 +219,29 @@ a:hover{
         width:99%;
         margin: 0;
         margin-top:30px;
-        margin-bottom:15px;
+        /* margin-bottom:15px; */
 
     }
     .ajuda{
-        font-size:0.7rem;
+        margin-top:-3px;
+        font-size:0.9rem;
+        margin-left:-7px;
     }
     .ajuda a{
-        font-size:0.7rem;
+        font-size:0.8rem;
     }
     .novo{
         font-size:0.7rem;
     }
+    .novo a{
+        font-size:1rem;
+    }
     .rodape{
-        margin-top:300px;
-        margin-bottom:100px;
+        margin-top:100px;
+        margin-bottom:50px;
         font-size:0.7rem;
+    }
+    .drop{
+        margin-top:25px;
     }
 }
